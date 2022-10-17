@@ -1,0 +1,100 @@
+/* * {
+	border: 1px dashed red;
+} */
+
+body,
+.hero-div,
+main,
+.logo-div {
+	display: flex;
+}
+
+body {
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	border: 1px solid lightslategrey;
+	width: 393px;
+	height: 852px;
+	border-radius: 10px;
+}
+
+.hero-div {
+	flex-direction: column;
+	background-image: url(./images/hero-image.jpg);
+	height: 167px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px 10px 0 0;
+}
+
+.hero-heading,
+.hero-text {
+	padding-left: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0px;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero-heading {
+	margin-top: 30px;
+	margin-left: 70px;
+	font-size: 30px;
+}
+
+.hero-text {
+	/* padding-top: 0; */
+	margin-top: 5px;
+	width: 230px;
+}
+
+.logo-div {
+	height: auto;
+	align-items: flex-end;
+	position: relative;
+}
+.logo {
+	width: 90px;
+	position: fixed;
+	height: 80px;
+	object-fit: cover;
+	top: 57px;
+	margin-left: 5px;
+}
+
+/* search */
+
+main {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.search {
+	margin-top: 15px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: 350px;
+}
+
+.search::placeholder {
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.category-text {
+	text-align: left;
+}
+
+.product-div {
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+}
