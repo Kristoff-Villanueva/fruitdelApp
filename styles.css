@@ -91,10 +91,37 @@ main {
 
 .category-text {
 	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 0px;
 }
 
 .product-div {
-	display: flex;
+	/* display: flex; */
 	justify-content: flex-start;
-	width: 90%;
+	width: 100%;
+}
+
+.media-image {
+	width: 100px;
+	margin-left: 50px;
+}
+.media-text {
+	margin-top: -20px;
+	margin-left: 50px
+}
+
+.media-scroller {
+	display: grid;
+	gap:40px;
+	grid-auto-flow: column;
+	grid-auto-columns:19%;
+
+	overflow-x: auto;
+	overscroll-behavior-inline: contain;
+}
+
+.media-element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

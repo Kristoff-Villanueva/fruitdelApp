@@ -1,0 +1,19 @@
+{
+  "name": "fruitdel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fruitsData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristoff-Villanueva/fruitdelApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kristoff-Villanueva/fruitdelApp/issues"
+  },
+  "homepage": "https://github.com/Kristoff-Villanueva/fruitdelApp#readme"
