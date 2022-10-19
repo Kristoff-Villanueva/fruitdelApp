@@ -1,10 +1,17 @@
 const fruits = [
-	{ fruit: "Mango", Price: 120, image: "./images/mango.png" },
-	{ fruit: "Banana", Price: 79, image: "./images/banana.png" },
-	{ fruit: "Pineapple", Price: 60, image: "./images/pineapple.png" },
-	{ fruit: "Lemon", Price: 90, image: "./images/lemon.png" },
-	{ fruit: "Apple", Price: 50, image: "./images/apple.png" },
-	{ fruit: "Orange", Price: 45, image: "./images/orange.png" },
+	{ fruit: "Mango", price: 120, image: "./images/fruits/mango.png", reviews: '⭐⭐⭐⭐' },
+	{ fruit: "Banana", price: 79, image: "./images/fruits/banana.png", reviews: '⭐⭐⭐⭐⭐' },
+	{ fruit: "Pineapple", price: 60, image: "./images/fruits/pineapple.png", reviews: '⭐⭐⭐' },
+	{ fruit: "Lemon", price: 90, image: "./images/fruits/lemon.png", reviews: '⭐⭐⭐⭐⭐' },
+	{ fruit: "Apple", price: 50, image: "./images/fruits/apple.png", reviews: '⭐⭐⭐' },
+	{ fruit: "Orange", price: 45, image: "./images/fruits/orange.png", reviews: '⭐⭐⭐⭐' },
 ];
 
-export default fruits
+const categories = [
+	{categoryName: "Fruits", image:"./fruits.jpg"},
+	{categoryName: "Vegetable", image:"./vegetables.jpg"},
+	{categoryName: "Honey", image:"./honey.jpg"},
+	{categoryName: "Spices", image:"./spices.jpg"}
+]
+
+export {fruits, categories}
